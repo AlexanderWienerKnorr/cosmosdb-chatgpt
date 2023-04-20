@@ -63,7 +63,7 @@ Note: You must have access to Azure Open AI service from your subscription befor
 
 All connection information for Azure Cosmos DB and Open AI is zero-touch and injected as environment variables in the Azure App Service instance at deployment time. 
 
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/AlexanderWienerKnorr/cosmosdb-chatgpt/main/azuredeploy.json)
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/AlexanderWienerKnorr/cosmosdb-chatgpt/main/azuredeploy.bicep)
 
 
 
