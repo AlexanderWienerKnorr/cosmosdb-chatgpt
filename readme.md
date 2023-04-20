@@ -49,7 +49,7 @@ Please note this is a sample application. It is intended to demonstrate how to u
 ### Installation
 
 1. Fork this repository to your own GitHub account.
-1. Depending on whether you deploy using the ARM Template or Bicep, modify this variable in one of those files to point to your fork of this repository, "webSiteRepository": "https://github.com/Azure-Samples/cosmosdb-chatgpt.git" 
+1. Depending on whether you deploy using the ARM Template or Bicep, modify this variable in one of those files to point to your fork of this repository, "webSiteRepository": "https://github.com/AlexanderWienerKnorr/cosmosdb-chatgpt.git" 
 1. If using the Deploy to Azure button below, also modify this README.md file to change the path for the Deploy To Azure button to your local repository.
 1. If you deploy this application without making either of these changes, you can update the repository by disconnecting and connecting an external git repository pointing to your fork.
 
@@ -63,7 +63,7 @@ Note: You must have access to Azure Open AI service from your subscription befor
 
 All connection information for Azure Cosmos DB and Open AI is zero-touch and injected as environment variables in the Azure App Service instance at deployment time. 
 
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/AlexanderWienerKnorr/cosmosdb-chatgpt/main/azuredeploy.bicep)
+[![Deploy to Azure](https://azuredeploy.net/deploybutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/AlexanderWienerKnorr/cosmosdb-chatgpt/main/azuredeploy.json)
 
 
 
